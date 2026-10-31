@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+
+  min-height: 100vh;
+
+  background: var(--rp-background);
+
+  color: var(--rp-text-primary);
+}
+
+.sidebar {
+  width: 340px;
+
+  border-right: 1px solid var(--rp-border);
+
+  padding: 20px;
+
+  overflow-y: auto;
+}
+
+.content {
+  flex: 1;
+
+  padding: 24px;
+}
+
+nav {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+
+  margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+
+  color: var(--rp-text-primary);
+}

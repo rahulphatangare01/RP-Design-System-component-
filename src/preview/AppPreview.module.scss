@@ -1,0 +1,85 @@
+.previewContainer {
+  min-height: 100vh;
+
+  background-color: var(--rp-background);
+
+  color: var(--rp-text-primary);
+
+  padding: 32px;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 32px;
+}
+
+.section {
+  margin-top: 24px;
+
+  padding: 20px;
+
+  border: 1px solid var(--rp-border);
+
+  background: var(--rp-surface);
+
+  border-radius: var(--rp-radius);
+}
+
+.themeInfo {
+  display: grid;
+
+  gap: 12px;
+
+  margin-top: 16px;
+}
+
+.colorBox {
+  width: 120px;
+
+  height: 40px;
+
+  border-radius: var(--rp-radius);
+
+  border: 1px solid var(--rp-border);
+}
+
+.colorRow {
+  display: flex;
+
+  gap: 12px;
+
+  align-items: center;
+}
+.buttonRow {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 16px;
+
+  align-items: center;
+}
+.themeToggle {
+  border: none;
+
+  cursor: pointer;
+
+  padding: 12px 20px;
+
+  border-radius: var(--rp-radius);
+
+  background: var(--rp-primary);
+
+  color: white;
+
+  font-weight: 600;
+}

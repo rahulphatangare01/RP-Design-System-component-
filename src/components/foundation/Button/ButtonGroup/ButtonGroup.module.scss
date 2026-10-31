@@ -1,0 +1,96 @@
+// .group {
+//   display: flex;
+
+//   gap: 8px;
+// }
+
+// .horizontal {
+//   flex-direction: row;
+// }
+
+// .vertical {
+//   flex-direction: column;
+// }
+
+// .fullWidth {
+//   width: 100%;
+// }
+
+// .group > * {
+//   border-radius: 0;
+// }
+
+// .group > *:first-child {
+//   border-radius: 8px 0 0 8px;
+// }
+
+// .group > *:last-child {
+//   border-radius: 0 8px 8px 0;
+// }
+.group {
+  display: flex;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.noWrap {
+  flex-wrap: nowrap;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.center {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+/* Attached Mode */
+
+.attached {
+  gap: 0 !important;
+}
+
+.attached > * {
+  border-radius: 0 !important;
+}
+
+.attached > *:first-child {
+  border-radius: 8px 0 0 8px !important;
+}
+
+.attached > *:last-child {
+  border-radius: 0 8px 8px 0 !important;
+}
+
+.attached.vertical > *:first-child {
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.attached.vertical > *:last-child {
+  border-radius: 0 0 8px 8px !important;
+}
+
+@media (max-width: 768px) {
+  .group {
+    flex-wrap: wrap;
+  }
+}
